@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
     'my_app',
 ]
 
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-    'https://todo-app-frontend-lilac.vercel.app/',
+    'https://todo-app-frontend-lilac.vercel.app',
 ]
 
 ROOT_URLCONF = 'backendTodo.urls'
